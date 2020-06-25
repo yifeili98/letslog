@@ -2,7 +2,9 @@ letslog
 ===============
 This is a log module for people to log for their programs  
   
-   
+#### Required Packages
+`datetime`, `logging`, `pathlib`
+
 #### Available Levels 
 INFO, DEBUG, WARNING, ERROR, CRITICAL
 
