@@ -33,7 +33,6 @@ class Letslog:
             None
         '''
         try:
-            print(self.logPath)
             logging.basicConfig(filename = self.logPath + '/' +
                     str(datetime.datetime.now()).replace(' ', '_').replace(':', '')[:17] + origin + '.log', 
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
